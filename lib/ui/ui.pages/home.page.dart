@@ -10,9 +10,7 @@ class HomePage extends StatelessWidget {
       drawer: MyDrawer(),
       appBar: AppBar(title: Text('Home Page'),),
       body: Center(
-        child: Text('Assalamou aleykoum', style: TextStyle(color: Colors.green,
-            fontSize: 30
-        ),),
+        child: Text('Assalamou aleykoum', style: TextStyle(color: Colors.green, fontSize: 30),),
       ),
     );
   }
